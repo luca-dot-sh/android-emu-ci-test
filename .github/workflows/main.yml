@@ -16,4 +16,6 @@ jobs:
         uses: reactivecircus/android-emulator-runner@v2.33.0
         with:
           api-level: 33
+          arch: x86_64
+          target: android-automotive
           script: echo test
