@@ -17,5 +17,5 @@ jobs:
         with:
           api-level: 33
           arch: x86_64
-          script: echo test
+          script: bash main.sh
           emulator-options: -no-snapshot -writable-system -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
