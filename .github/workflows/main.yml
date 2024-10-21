@@ -17,5 +17,4 @@ jobs:
         with:
           api-level: 33
           arch: x86_64
-          target: android-automotive
           script: echo test
